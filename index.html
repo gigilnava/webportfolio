@@ -3,12 +3,16 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Gil Nava || Portfolio</title>
+		<title>Gilian Nava || Portfolio</title>
 
 		<!-- External Links -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<!-- FontAwesome Script -->
+		<script src="https://kit.fontawesome.com/158e4a4082.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 
@@ -20,14 +24,17 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarScroll">
 		    <ul class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-		      <li class="nav-item active">
+		      <li class="nav-item">
 		        <a class="nav-link" href="#landing">Home <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#about">About Me</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#pt">Projects & Tools</a>
+		        <a class="nav-link" href="#projects">Projects</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#tools">Tools</a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#contact">Contact</a>
@@ -40,114 +47,205 @@
 		<!-- Main Content Start -->
 		<main class="container-fluid p-0">
 			<!-- Landing Start -->
-			<section id="landing" class="container-fluid">
-				<div id="black" class="p-3 d-flex justify-content-center align-items-center">
-					<div class="row text-light">
-						<div class="col-4 offset-1">
-							<h1>Stand Out.</h1>
-							<h1>Ship your work.</h1>
-							<h1>Change the World.</h1>
-							<h5>(If that's what you want.)</h5>
-						</div>
-						<div class="col-4 offset-1 border border-left border-top-0 border-right-0 border-bottom-0">
-							<h2 class="pl-3">
-								The first step is design, and you've come to the right place.
-							</h2>
-						</div>
+			<section>
+				<div id="landing" class="p-5">
+					<div class="text-center text-light col-md-8 offset-md-2 align-items-center">
+						<h1>Stand Out. Ship Your Work. Change the World.</h1>
+						<p>(I mean, if that's what you want)</p>
 					</div>
 				</div>
 			</section>
 			<!-- Landing End -->
 
 			<!-- About Start -->
-			<section id="about" class="container-fluid p-3 text-light">
-				<div class="row p-4 d-md-flex">
-					<img src="images/makibubu2.jpg" width="200" class="rounded-circle col-8 offset-2 col-md-4 offset-md-1">
-					<div class="d-flex flex-column col-8 offset-2 col-md-4 offset-md-1 mt-5">
-						<h1>About Me</h1>
+			<section id="about" class="container-fluid py-4 text-dark">
+				<div class="row p-4 d-md-flex p-md-1">
+					<img src="images/makibubu2.jpg" width="150" class="img-fluid rounded-circle col-8 offset-2 col-md-4 offset-md-1">
+					<div class="d-flex flex-column col-8 offset-2 col-md-4 offset-md-1 mt-3 mt-md-5 pt-md-5">
+						<h1>Gilian Nava</h1>
+						<h2>Full Stack Web Developer</h2>
 						<p>
-							My name is Gilian! I'm a beginner full-stack developer with a love for learning.
+							Hey, I'm Gil! I'm a budding full-stack developer with a love for learning and making things that are awesome, both in terms of function and aesthetic. You're looking at my initial capstone project, and soon you'll see a proper portfolio!
 						</p>
 					</div>
 				</div>
 			</section>
 			<!-- About End -->
 
-			<!-- Projects and Tools Start -->
-			<section id="pt" class="container-fluid p-3 text-light">
-				<div>
-					<!-- Projects Start -->
-					<h1>Projects</h1>
-					<!-- Projects End -->
+			<!-- Projects Start -->
+			<section id="projects" class="container-fluid text-center text-light p-md-4">
+				<h1 class="pt-2">Projects</h1>
 
-					<!-- Tools Start -->
-					<h1>Tools</h1>
-						<div class="justify-content-center">
-						    <div class="d-block">
-						        <img width="150" src="images/logo-html5.png"/ class="img-fluid">
-						    </div>
-						    <div class="flex-sm-column justify-content-between">
-						        <img width="150" src="images/logo-css3.png"/ class="img-fluid">
-						        <img width="150" src="images/logo-javascript.png"/ class="img-fluid">
-						    </div>
-						</div>
-
-						<div class="d-flex d-md-block">
-						    <div class="flex-column">
-						        <img width="150" src="images/logo-mongodb.png"/>
-						        <img width="150" src="images/logo-nodejs.png"/>
-						        <img width="150" src="images/logo-expressjs.png"/>
-						        <img width="150" src="images/logo-react.png"/>
-						        <img width="150" src="images/logo-heroku.png"/>
-						    </div>
-						    <div class="flex-column">
-						        <img width="150" src="images/logo-git.png"/>
-						        <img width="150" src="images/logo-sublime-text-3.png"/>
-						        <img width="150" src="images/logo-postman.png"/>
-						        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
-						    </div>
-						</div>
-					<!-- Tools End -->
+				<!-- Front-End Start -->
+				<div class="row py-3">
+				    <div class="col-md-6 col-12 order-md-1 order-2">
+				        <a href="https://gitlab.com/b245-nava/" class="text-light"><h5 class="pt-3 pt-md-2">Front-End Projects</h5></a>
+				        <p>Projects involving HTML, CSS, and CSS frameworks and ensuring great UX/UI. A great interface is the first step to getting your brand known. <a href="https://gitlab.com/b245-nava/" class="text-light">Here are some examples of my work so far.</a></p>
+				    </div>
+				    <div class="col-md-6 col-12 order-md-2 order-1">
+				        <img src="images/frontend.jpg"/ class="img-fluid">
+				    </div>
 				</div>
+				<!-- Front-End End -->
+
+				<!-- Back-End Start -->
+				<div class="row py-3">
+				    <div class="col-md-6 col-12 order-md-2 order-2">
+				        <a href="https://gitlab.com/b245-nava/" class="text-light"><h5 class="pt-3 pt-md-2">Back-End Projects</h5></a>
+				        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				    </div>
+				    <div class="col-md-6 col-12 order-md-1 order-1">
+				        <img src="images/backend.jpg"/ class="img-fluid">
+				    </div>
+				</div>
+				<!-- Back-End End -->
+
+				<!-- Full-Stack Start -->
+				<div class="row py-4">
+				    <div class="col-md-6 col-12 order-md-1 order-2">
+				        <a href="https://gitlab.com/b245-nava/" class="text-light"><h5 class="pt-3 pt-md-2">Full-Stack Projects</h5></a>
+				        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				    </div>
+				    <div class="col-md-6 col-12 order-md-2 order-1">
+				        <img src="images/fullstack.jpg"/ class="img-fluid">
+				    </div>
+				</div>
+				<!-- Full-Stack End -->
+
+
 			</section>
-			<!-- Projects and Tools End -->
+			<!-- Projects End -->
+
+			<!-- Tools Start -->
+			<section id="tools" class="container-fluid p-4 text-dark">
+				<div class="text-center">
+				<h1 class="pb-4">My Toolbox</h1>
+
+                <!-- Core Tools Section Start -->
+                <h3>Core Tools</h3>
+
+                <div class="justify-content-center">
+                    <div class="d-block">
+                        <img width="150" src="images/logo-html5.png"/ class="img-fluid">
+                    </div>
+                    <div class="flex-sm-column justify-content-between">
+                        <img width="150" src="images/logo-css3.png"/ class="img-fluid">
+                        <img width="150" src="images/logo-javascript.png"/ class="img-fluid">
+                    </div>
+                </div>
+                <!-- Core Tools Section End -->
+                
+                <!-- Other Tools Section Start -->
+                <h3>Other Tools</h3>
+
+                <div class="d-flex d-md-block">
+                    <div class="flex-column">
+                        <img width="150" src="images/logo-mongodb.png"/>
+                        <img width="150" src="images/logo-nodejs.png"/>
+                        <img width="150" src="images/logo-expressjs.png"/>
+                        <img width="150" src="images/logo-react.png"/>
+                        <img width="150" src="images/logo-heroku.png"/>
+                    </div>
+                    <div class="flex-column">
+                        <img width="150" src="images/logo-git.png"/>
+                        <img width="150" src="images/logo-sublime-text-3.png"/>
+                        <img width="150" src="images/logo-postman.png"/>
+                        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+                    </div>
+                </div>
+                <!-- Other Tools Section End -->
+                
+            </div>
+			</section>
+			<!-- Tools End -->
 
 			<!-- Contact Start -->
 			<section id="contact" class="bg-dark text-light">
-				<form class="col-8 offset-2 col-md-6 offset-md-3 p-3">
-				  <div class="form-row">
-				  	<div class="form-group col-md-6">
-				  	  <label for="full_name">Full Name</label>
-				  	  <input type="text" class="form-control" id="full_name" placeholder="First Last">
-				  	</div>
-				    <div class="form-group col-md-6">
-				      <label for="email">Email</label>
-				      <input type="email" class="form-control" id="email" placeholder="name@domain.com">
-				    </div>
-				  </div>
-				    <div class="form-group">
-				      <label for="concern">Primary Concern</label>
-				      <select id="concern" class="form-control">
-				        <option selected></option>
-				        <option>Quotation</option>
-				        <option>Book An Appointment</option>
-				        <option>Follow-Up</option>
-				        <option>Feedback & Suggestions</option>
-				      </select>
-				    </div>
-				   <div class="form-group">
-				     <label for="message">Message</label>
-				     <textarea class="form-control" id="message" rows="6" placeholder="How can I help you?"></textarea>
-				   </div>
-				  </div>
-				  <button type="submit" class="btn text-light">Send</button>
-				</form>
+				<h1 class="p-3 text-center">Contact</h1>
+				<div class="d-md-flex">
+
+					<!-- Email -->
+					<div class="col-md-6 py-4">
+						<h3 class="text-center text-light pt-3">Send me a message!</h3>
+						<form>
+						  <div class="form-group">
+						    <label for="full_name">Full Name</label>
+						    <input type="text" class="form-control" id="full_name" placeholder="First Last">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="email">Email Address</label>
+						    <input type="email" class="form-control" id="email" placeholder="name@domain.com">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="phone">Mobile Number</label>
+						    <input type="text" class="form-control" id="phone" placeholder="name@example.com">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="message">Message</label>
+						    <textarea class="form-control" id="message" rows="5" placeholder="How can I help you?"></textarea>
+						  </div>
+
+						  <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">Send</button>
+
+						  <!-- Socmed Buttons -->
+						  <div id="socmed" class="col-md-6 my-2 mx-auto container border rounded d-flex justify-content-between">
+						  	<span>
+						  		<a href="https://www.facebook.com/" class="text-light"><i class="fa-brands fa-facebook"></i></a>
+						  	</span>
+						  	<span>
+						  		<a href="https://www.instagram.com/" class="text-light"><i class="fa-brands fa-instagram"></i></a>
+						  	</span>
+						  	<span>
+						  		<a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="text-light"><i class="fa-brands fa-discord"></i></a>
+						  	</span>
+						  	<span>
+						  		<a href="https://gitlab.com/b245-nava/" class="text-light"><i class="fa-brands fa-github"></i></a>
+						  	</span>
+						  </div>
+						</form>
+					</div>
+
+					<!-- GMap -->
+					<div class="col-md-6 py-4">
+						<h3 class="text-center text-light pt-3 pb-md-4">Coffee, maybe?</h3>
+						<iframe id="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3867.219022362596!2d121.06097204230004!3d14.240441865265874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd7d8ff3e692cb%3A0x75689ee1d9c578f4!2sThree%20Monkeys%20Brews%20%26%20Bites!5e0!3m2!1sen!2sph!4v1673967643757!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+
+					<!-- Modal Start -->
+					<!-- Modal -->
+					<div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">Thanks for your message!</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        We'll get back to you ASAP.
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- Modal End -->
+				</div>
 			</section>
 			<!-- Contact End -->
 		</main>
 		<!-- Main Content End -->
 
 		<!-- Footer Start -->
+		<footer class="p-3 text-light text-center">
+			<span>Gilian Nava | </span>
+			<span>Full Stack Web Developer</span>
+			<span> | © All Rights Reserved 2023</span>
 		<!-- Footer End -->
 
 		<!--Scripts -->
