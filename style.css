@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Landing Start*/
+#landing{
+	height: 100vh;
+	background-image: url("images/goldenrod.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	margin: 0;
+}
+
+/*Landing End*/
+/*About Start*/
+#about{
+	background-color:#2F4858;
+}
+/*About End*/
+
+/*ProjTools Start*/
+#pt{
+	background-color: #659B90;
+}
+/*ProjTools End*/
+
+/*Contact Start*/
+.btn{
+	background-color: #006B5E;
+}
+/*Contact End*/

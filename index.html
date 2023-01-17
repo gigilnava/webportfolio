@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Gil Nava || Portfolio</title>
+
+		<!-- External Links -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<!-- Navbar Start -->
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+		  <a class="navbar-brand" href="#landing">GiGilDesigns</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarScroll">
+		    <ul class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#landing">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#about">About Me</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#pt">Projects & Tools</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+		<!-- Navbar End -->
+
+		<!-- Main Content Start -->
+		<main class="container-fluid p-0">
+			<!-- Landing Start -->
+			<section id="landing" class="container-fluid">
+				<div id="black" class="p-3 d-flex justify-content-center align-items-center">
+					<div class="row text-light">
+						<div class="col-4 offset-1">
+							<h1>Stand Out.</h1>
+							<h1>Ship your work.</h1>
+							<h1>Change the World.</h1>
+							<h5>(If that's what you want.)</h5>
+						</div>
+						<div class="col-4 offset-1 border border-left border-top-0 border-right-0 border-bottom-0">
+							<h2 class="pl-3">
+								The first step is design, and you've come to the right place.
+							</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Landing End -->
+
+			<!-- About Start -->
+			<section id="about" class="container-fluid p-3 text-light">
+				<div class="row p-4 d-md-flex">
+					<img src="images/makibubu2.jpg" width="200" class="rounded-circle col-8 offset-2 col-md-4 offset-md-1">
+					<div class="d-flex flex-column col-8 offset-2 col-md-4 offset-md-1 mt-5">
+						<h1>About Me</h1>
+						<p>
+							My name is Gilian! I'm a beginner full-stack developer with a love for learning.
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- About End -->
+
+			<!-- Projects and Tools Start -->
+			<section id="pt" class="container-fluid p-3 text-light">
+				<div>
+					<!-- Projects Start -->
+					<h1>Projects</h1>
+					<!-- Projects End -->
+
+					<!-- Tools Start -->
+					<h1>Tools</h1>
+						<div class="justify-content-center">
+						    <div class="d-block">
+						        <img width="150" src="images/logo-html5.png"/ class="img-fluid">
+						    </div>
+						    <div class="flex-sm-column justify-content-between">
+						        <img width="150" src="images/logo-css3.png"/ class="img-fluid">
+						        <img width="150" src="images/logo-javascript.png"/ class="img-fluid">
+						    </div>
+						</div>
+
+						<div class="d-flex d-md-block">
+						    <div class="flex-column">
+						        <img width="150" src="images/logo-mongodb.png"/>
+						        <img width="150" src="images/logo-nodejs.png"/>
+						        <img width="150" src="images/logo-expressjs.png"/>
+						        <img width="150" src="images/logo-react.png"/>
+						        <img width="150" src="images/logo-heroku.png"/>
+						    </div>
+						    <div class="flex-column">
+						        <img width="150" src="images/logo-git.png"/>
+						        <img width="150" src="images/logo-sublime-text-3.png"/>
+						        <img width="150" src="images/logo-postman.png"/>
+						        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+						    </div>
+						</div>
+					<!-- Tools End -->
+				</div>
+			</section>
+			<!-- Projects and Tools End -->
+
+			<!-- Contact Start -->
+			<section id="contact" class="bg-dark text-light">
+				<form class="col-8 offset-2 col-md-6 offset-md-3 p-3">
+				  <div class="form-row">
+				  	<div class="form-group col-md-6">
+				  	  <label for="full_name">Full Name</label>
+				  	  <input type="text" class="form-control" id="full_name" placeholder="First Last">
+				  	</div>
+				    <div class="form-group col-md-6">
+				      <label for="email">Email</label>
+				      <input type="email" class="form-control" id="email" placeholder="name@domain.com">
+				    </div>
+				  </div>
+				    <div class="form-group">
+				      <label for="concern">Primary Concern</label>
+				      <select id="concern" class="form-control">
+				        <option selected></option>
+				        <option>Quotation</option>
+				        <option>Book An Appointment</option>
+				        <option>Follow-Up</option>
+				        <option>Feedback & Suggestions</option>
+				      </select>
+				    </div>
+				   <div class="form-group">
+				     <label for="message">Message</label>
+				     <textarea class="form-control" id="message" rows="6" placeholder="How can I help you?"></textarea>
+				   </div>
+				  </div>
+				  <button type="submit" class="btn text-light">Send</button>
+				</form>
+			</section>
+			<!-- Contact End -->
+		</main>
+		<!-- Main Content End -->
+
+		<!-- Footer Start -->
+		<!-- Footer End -->
+
+		<!--Scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	</body>
+</html>
